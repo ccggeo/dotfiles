@@ -55,6 +55,7 @@ nnoremap <Leader>gb :Gblame<CR>
 nnoremap <Leader>gl :Glog<CR>
 nnoremap <Leader>ga :Git add %:p<CR><CR>
 
+set mouse=
 set cursorline
 set ttyfast
 set ruler
