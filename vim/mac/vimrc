@@ -5,6 +5,9 @@ set dir=~/.vim/swp//
 
 let g:pymode_options_colorcolumn = 0
 
+" map esc to jj to exit insert 
+inoremap jj <Esc>
+
 " search/file completion
 set wildmode=longest,list,full
 set wildmenu
@@ -116,6 +119,8 @@ map <F2> :NERDTreeToggle<CR>
 map  <C-l> :tabn<CR>
 map  <C-h> :tabp<CR>
 map  <C-n> :tabnew<CR>
+let NERDTreeShowHidden=1
+
 
 "" Clear whitespace
 map <F12> :%s/\s\+$//e<CR>
@@ -188,7 +193,10 @@ Plugin 'ajh17/VimCompletesMe'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'klen/python-mode'
 Bundle "lepture/vim-jinja"
-Plugin 'elzr/vim-json'
+Plugin 'alfredodeza/jacinto.vim'
+Plugin 'terryma/vim-smooth-scroll'
+
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
