@@ -50,6 +50,9 @@ let g:gruvbox_contrast_dark='hard'
 
 " git/fugitive
 nnoremap <Leader>gs :Gstatus<CR>
+nnoremap <Leader>gw :Gwrite<CR>
+nnoremap <Leader>gc :Gcommit<CR>
+nnoremap <Leader>gp :Gpush<CR>
 nnoremap <Leader>gd :Gdiff<CR>
 nnoremap <Leader>gb :Gblame<CR>
 nnoremap <Leader>gl :Glog<CR>
@@ -166,24 +169,23 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'vim-airline/vim-airline'
 Plugin 'universal-ctags/ctags'
 Plugin 'majutsushi/tagbar'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'chriskempson/base16-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'stephpy/vim-yaml'
 Plugin 'morhetz/gruvbox'
 Plugin 'nvie/vim-flake8'
-Bundle 'vim-ruby/vim-ruby'
-Plugin 'tomlion/vim-solidity'
 Plugin 'enricobacis/vim-airline-clock'
 Plugin 'tpope/vim-fugitive'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ajh17/VimCompletesMe'
-Plugin 'chase/vim-ansible-yaml'
 Plugin 'ekalinin/Dockerfile.vim'
+Bundle "lepture/vim-jinja"
+Plugin 'alfredodeza/jacinto.vim'
+Plugin 'terryma/vim-smooth-scroll'
+Plugin 'janko/vim-test'
+Plugin 'Yggdroot/indentLine'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 let g:AutoClosePreserveDotReg = 0
