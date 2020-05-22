@@ -58,6 +58,11 @@ nnoremap <Leader>gb :Gblame<CR>
 nnoremap <Leader>gl :Glog<CR>
 nnoremap <Leader>ga :Git add %:p<CR><CR>
 
+" Indent stuff
+let g:indentLine_char = '|'
+let g:indentLine_enabled = 0
+nnoremap <Leader>}} :IndentLinesToggle<CR><CR>
+
 set mouse=
 set cursorline
 set ttyfast
@@ -161,7 +166,6 @@ Plugin 'gmarik/vundle'
 Plugin 'Buffergator'
 Plugin 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
-Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'junegunn/gv.vim'
 Plugin 'easymotion/vim-easymotion'
