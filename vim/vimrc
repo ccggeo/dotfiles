@@ -68,10 +68,11 @@ set cursorline
 set ttyfast
 set ruler
 set backspace=indent,eol,start
-colorscheme peaksea
-set background=dark
 set t_Co=256
 set synmaxcol=2048
+set background=dark
+syntax enable
+colorscheme peaksea
 
 "Highlight section between brackets (do to opening bracket and highlight)
 nmap <leader>hp [{%v%<Home>
