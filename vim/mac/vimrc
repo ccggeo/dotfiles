@@ -196,6 +196,7 @@ Plugin 'alfredodeza/jacinto.vim'
 Plugin 'terryma/vim-smooth-scroll'
 Plugin 'janko/vim-test'
 Plugin 'Yggdroot/indentLine'
+Plugin 'itchyny/vim-cursorword'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
