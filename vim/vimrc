@@ -202,6 +202,7 @@ Plugin 'terryma/vim-smooth-scroll'
 Plugin 'janko/vim-test'
 Plugin 'Yggdroot/indentLine'
 Plugin 'itchyny/vim-cursorword'
+Plugin 'pechorin/any-jump.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
