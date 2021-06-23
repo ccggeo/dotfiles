@@ -1,0 +1,14 @@
+[url "git@github.com:"]
+	insteadOf = http://github.com/
+	insteadOf = https://github.com/
+[pull]
+	ff = only
+	rebase = merges
+[push]
+	default = simple
+[merge]
+	tool = ediff
+	conflictStyle = diff3
+	autoStash = true
+[rebase]
+	autoStash = true
